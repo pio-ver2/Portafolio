@@ -81,11 +81,11 @@ titles = [
 ]
 
 images = [
-    "img/chatgpt.png", "img/dalle.png", "img/copilot.png",
-    "img/runway.png", "img/midjourney.png", "img/soundful.png",
-    "img/grammarly.png", "img/deepl.png", "img/synthesia.png",
-    "img/pictory.png", "img/fireflies.png", "img/murf.png",
-    "img/descript.png", "img/leonardo.png", "img/replit.png"
+    "image_2025-10-31_024804638.png", "image_2025-10-31_024828456.png", "image_2025-10-31_024840470.png",
+    "image_2025-10-31_024857834.png", "image_2025-10-31_024932307.png, "image_2025-10-31_024951539.png",
+    "image_2025-10-31_025008782.png", "image_2025-10-31_025044312.png", "image_2025-10-31_025100531.png",
+    "image_2025-10-31_025120114.png", "image_2025-10-31_025139338.png", "image_2025-10-31_025210860.png",
+    "image_2025-10-31_025230111.png", "image_2025-10-31_025253076.png", "image_2025-10-31_025330730.png"
 ]
 
 codes = [
