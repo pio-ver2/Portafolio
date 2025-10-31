@@ -67,8 +67,7 @@ with st.sidebar:
 # ==============================
 # TÍTULO PRINCIPAL
 # ==============================
-st.title("🌊 Aplicaciones de Inteligencia Artificial")
-st.markdown("### Explora diferentes herramientas tecnológicas con estilo oceánico 🐚")
+st.title("🌊  Portafolio Multimodales")
 
 # ==============================
 # DATOS DE TARJETAS
