@@ -78,7 +78,7 @@ titles = [
     "Traductor", "Analisis ENG", "Analisis Sentimientos",
     "Analizador de Texto ESP", "Detección de Objetos", "Chat PDF",
     "Análisis de Imagen", "Reconocimiento de Dígitos", "Tablero Oceánico Inteligente",
-    "Descript", "Leonardo AI", "Replit Ghostwriter"
+    "CONTROL POR VOZ", "ector de Sensor MQTT", "MQTT Control"
 ]
 
 images = [
@@ -94,7 +94,7 @@ codes = [
     "https://voz-txt-traductor.streamlit.app", "https://gestosap.streamlit.app", "https://tenlengl.streamlit.app",
     "https://anaisistexto.streamlit.app", "https://chatpdfphio.streamlit.app", "https://visionapphio.streamlit.app",
     "https://handwv1dibujo.streamlit.app", "https://drawrecogv2.streamlit.app", "https://drawrecogv2.streamlit.app",
-    "https://www.descript.com/", "https://leonardo.ai/", "https://replit.com/"
+    "https://ctrlvoicephio.streamlit.app", "https://recepmqttphio.streamlit.app", "https://sendcmqttphio.streamlit.app"
 ]
 
 # ==============================
