@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import base64
 
 # ==============================
 # CONFIGURACIÓN GENERAL
@@ -105,11 +106,16 @@ for fila in range(5):
     for col in [col1, col2, col3]:
         if index < len(titles):
             with col:
+                # Cargar la imagen como base64
+                img_path = images[index]
+                with open(img_path, "rb") as img_file:
+                    img_base64 = base64.b64encode(img_file.read()).decode()
+
                 st.markdown(
                     f"""
                     <div class="card">
                         <h4>{titles[index]}</h4>
-                        <img src="data:image/png;base64,{base64.b64encode(open(images[index], "rb").read()).decode()}" alt="{titles[index]}">
+                        <img src="data:image/png;base64,{img_base64}" alt="{titles[index]}">
                         <br><br>
                         <a href="{codes[index]}" target="_blank">🌐 Ir al sitio</a>
                     </div>
