@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit: cover;  /* Asegura que las imágenes se ajusten */
 }
 a {
     color: #0077b6 !important;
@@ -82,7 +82,7 @@ titles = [
 
 images = [
     "image_2025-10-31_024804638.png", "image_2025-10-31_024828456.png", "image_2025-10-31_024840470.png",
-    "image_2025-10-31_024857834.png", "image_2025-10-31_024932307.png, "image_2025-10-31_024951539.png",
+    "image_2025-10-31_024857834.png", "image_2025-10-31_024932307.png", "image_2025-10-31_024951539.png",
     "image_2025-10-31_025008782.png", "image_2025-10-31_025044312.png", "image_2025-10-31_025100531.png",
     "image_2025-10-31_025120114.png", "image_2025-10-31_025139338.png", "image_2025-10-31_025210860.png",
     "image_2025-10-31_025230111.png", "image_2025-10-31_025253076.png", "image_2025-10-31_025330730.png"
@@ -109,7 +109,7 @@ for fila in range(5):
                     f"""
                     <div class="card">
                         <h4>{titles[index]}</h4>
-                        <img src="{images[index]}" alt="{titles[index]}">
+                        <img src="data:image/png;base64,{base64.b64encode(open(images[index], "rb").read()).decode()}" alt="{titles[index]}">
                         <br><br>
                         <a href="{codes[index]}" target="_blank">🌐 Ir al sitio</a>
                     </div>
