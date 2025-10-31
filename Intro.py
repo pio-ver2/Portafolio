@@ -59,11 +59,10 @@ a:hover {
 # SIDEBAR
 # ==============================
 with st.sidebar:
-    st.subheader("🐠 Aplicaciones con Inteligencia Artificial")
+    st.subheader("🐠 Portafolio Multimodales")
     st.write("""
-    Explora distintas herramientas impulsadas por IA en un entorno visual marino 🌐.
+    .
     """)
-    st.markdown("[🔗 Enlace general al sitio](https://sites.google.com/view/aplicacionesdeia/inicio)")
 
 # ==============================
 # TÍTULO PRINCIPAL
@@ -75,8 +74,8 @@ st.markdown("### Explora diferentes herramientas tecnológicas con estilo oceán
 # DATOS DE TARJETAS
 # ==============================
 titles = [
-    "ChatGPT", "DALL·E", "Copilot",
-    "Runway", "Midjourney", "Soundful",
+    "Intro", "Tezto a voz", "Reconocimiento de Texto en Imágenes",
+    "Traductor", "Midjourney", "Soundful",
     "Grammarly", "DeepL", "Synthesia",
     "Pictory", "Fireflies", "Murf",
     "Descript", "Leonardo AI", "Replit Ghostwriter"
@@ -91,8 +90,8 @@ images = [
 ]
 
 codes = [
-    "https://chat.openai.com/", "https://openai.com/dall-e", "https://github.com/features/copilot",
-    "https://runwayml.com/", "https://www.midjourney.com/", "https://soundful.com/",
+    "https://intro1phio.streamlit.app", "https://cuentovoz.streamlit.app", "https://intro1phio.streamlit.app",
+    "https://voz-txt-traductor.streamlit.app", "https://www.midjourney.com/", "https://soundful.com/",
     "https://www.grammarly.com/", "https://www.deepl.com/translator", "https://www.synthesia.io/",
     "https://pictory.ai/", "https://fireflies.ai/", "https://murf.ai/",
     "https://www.descript.com/", "https://leonardo.ai/", "https://replit.com/"
