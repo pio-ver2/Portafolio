@@ -76,8 +76,8 @@ st.markdown("### Explora diferentes herramientas tecnológicas con estilo oceán
 titles = [
     "Intro", "Tezto a voz", "Reconocimiento de Texto en Imágenes",
     "Traductor", "Analisis ENG", "Analisis Sentimientos",
-    "Analizador de Texto ESP", "DeepL", "Synthesia",
-    "Pictory", "Fireflies", "Murf",
+    "Analizador de Texto ESP", "Detección de Objetos", "Chat PDF",
+    "Análisis de Imagen", "Reconocimiento de Dígitos", "Tablero Oceánico Inteligente",
     "Descript", "Leonardo AI", "Replit Ghostwriter"
 ]
 
@@ -91,9 +91,9 @@ images = [
 
 codes = [
     "https://intro1phio.streamlit.app", "https://cuentovoz.streamlit.app", "https://intro1phio.streamlit.app",
-    "https://voz-txt-traductor.streamlit.app", "https://tdfesp.streamlit.app", "https://tenlengl.streamlit.app",
-    "https://anaisistexto.streamlit.app", "https://www.deepl.com/translator", "https://www.synthesia.io/",
-    "https://pictory.ai/", "https://fireflies.ai/", "https://murf.ai/",
+    "https://voz-txt-traductor.streamlit.app", "https://gestosap.streamlit.app", "https://tenlengl.streamlit.app",
+    "https://anaisistexto.streamlit.app", "https://chatpdfphio.streamlit.app", "https://visionapphio.streamlit.app",
+    "https://handwv1dibujo.streamlit.app", "https://drawrecogv2.streamlit.app", "https://drawrecogv2.streamlit.app",
     "https://www.descript.com/", "https://leonardo.ai/", "https://replit.com/"
 ]
 
